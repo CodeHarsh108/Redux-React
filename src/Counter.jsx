@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { increment } from "./stores/actions/actions";
 
 const Counter  = () => {
-    const count = useSelector((state) => state.count);
+    const count = useSelector((state) => state.counter.count);
     const dispatch = useDispatch();
     return(
         <div>
