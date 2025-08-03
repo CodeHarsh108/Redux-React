@@ -1,17 +1,11 @@
-import './App.css'
-import Counter from './Counter'
-import Display from './Display'
+import PostList from './PostLists.jsx';
 
-function App() {
+function App(){
+    return (
+        <div>
+            <PostList />
+        </div>
+    );
+};
 
-  return (
-   <div>
-    <h1>Welcome</h1>
-    <p>This is a simple React application.</p>
-    <Counter />
-    <Display />
-   </div>
-  )
-}
-
-export default App
+export default App;
